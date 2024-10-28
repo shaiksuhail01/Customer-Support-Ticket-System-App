@@ -39,18 +39,20 @@ Implementation: The backend uses a custom queue data structure to manage ticket 
 Purpose: Resolved tickets are stored in a linked list for easy insertion and deletion, especially when tickets need to be archived and accessed sequentially.
 Implementation: A singly linked list structure is used to keep track of resolved tickets. The head of the list points to the most recently resolved ticket, allowing for efficient removal and storage.
 
+## Follow these steps to set up the project:
+
 1. Clone the Repository:
-    ``bash
+    ```bash
     git clone https://github.com/shaiksuhail01/Customer-Support-Ticket-System-App.git
 
 2. Install Backend Dependencies
-    ``bash
+    ```bash
     cd backend
     npm install
 3. Install Frontend Dependencies
-    ``bash
+    ```bash
     cd frontend
     npm install
 4. Start the App:
-    ``bash 
+    ```bash 
     npm start
